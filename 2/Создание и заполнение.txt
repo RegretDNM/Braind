@@ -1,3 +1,7 @@
+Примечание: скрипты написаны под PostgresSQL.
+
+///////////////////
+
 create table if not exists tag (
 	id serial not null,
 	"name" text not null,
