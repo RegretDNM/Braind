@@ -11,18 +11,18 @@
 Для поддержки дополнительных атрибутов используется таблица "article_additional_fields", где описаны название атрибута, его тип и значение — всё это представлено набором символов, чтобы при необходимости можно было туда положить что угодно, а логика обработки менялась бы в зависимости от указанного типа атрибута.
 
 Запрос для получения всех оценок и комментариев к публикациям заданного автора:
-select a.id, a.header, user_comments.name, user_comments.text, user_scores.name, user_scores.score
-from user u
-join articles_to_users atu on atu.user_id = user.id
+select u.name, a.id, a.header, user_comments.name, user_comments.text, user_scores.name, user_scores.score
+from "user" u
+join articles_to_users atu on atu.user_id = u.id
 join article a on a.id = atu.article_id
 left join
-(select comm.text, comm.article_id, user.id, user.name
+(select comm.text, comm.article_id, us.id, us.name
 from comment comm
-join user on user.id = comm.user_id) as user_comments
-on user_comments.article_id = article.id
-left join
-(select score.text, score.article_id, user.id, user.name
+join "user" us on us.id = comm.user_id) as user_comments
+on user_comments.article_id = a.id
+join
+(select score.score, score.article_id, us.id, us.name
 from score
-join user on user.id = score.user_id) as user_scores
-on user_scores.article_id = article.id
-where user.name = 'smth'
+join "user" us on us.id = score.user_id) as user_scores
+on user_scores.article_id = a.id
+where u.name like '%Галина%'

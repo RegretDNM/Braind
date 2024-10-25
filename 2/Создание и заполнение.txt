@@ -73,7 +73,7 @@ create table if not exists category (
 create table if not exists articles_to_categories (
 	article_id int not null,
 	category_id int not null,
-	constraint articles_to_categories_pk primary key (article_id, user_id),
+	constraint articles_to_categories_pk primary key (article_id, category_id),
 	constraint articles_to_categories_fk_articles foreign key (article_id)
 		references article (id),
 	constraint articles_to_categories_fk_users foreign key (category_id)
@@ -99,7 +99,7 @@ insert into articles_to_categories (article_id, category_id)
 values (1, 1), (2, 3), (3, 3);
 
 insert into articles_to_users (article_id, user_id)
-values (1, 1), (2, 2), (2, 3);
+values (1, 1), (2, 2), (3, 2);
 
 insert into "comment" (article_id, user_id, "text")
 values (1, 3, '*хвалебный комментарий*'),
