@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.8.2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2359" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2284" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-2" value="article" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="120" width="320" height="210" as="geometry" />
+          <mxGeometry x="420" y="120" width="320" height="180" as="geometry" />
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
@@ -41,7 +41,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-11" value="partial_description varchar[] NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-9" vertex="1">
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-11" value="announce_description varchar[] NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-9" vertex="1">
           <mxGeometry x="30" width="290" height="30" as="geometry">
             <mxRectangle width="290" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -104,13 +104,8 @@
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ug6vpeXdx55hFxfICAQ-14" value="full_description varchar[] NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="1" vertex="1">
+        <mxCell id="4ug6vpeXdx55hFxfICAQ-14" value="detailed_description varchar[] NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="1" vertex="1">
           <mxGeometry x="450" y="240" width="230" height="30" as="geometry">
-            <mxRectangle width="220" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4ug6vpeXdx55hFxfICAQ-15" value="score float NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="1" vertex="1">
-          <mxGeometry x="450" y="270" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -172,13 +167,13 @@
             <mxRectangle width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ug6vpeXdx55hFxfICAQ-60" value="tag int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="1" vertex="1">
-          <mxGeometry x="450" y="300" width="220" height="30" as="geometry">
+        <mxCell id="4ug6vpeXdx55hFxfICAQ-60" value="tag_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="1" vertex="1">
+          <mxGeometry x="450" y="270" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4ug6vpeXdx55hFxfICAQ-61" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="1" vertex="1">
-          <mxGeometry x="420" y="300" width="30" height="30" as="geometry">
+          <mxGeometry x="420" y="270" width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -345,7 +340,7 @@
         </mxCell>
         <mxCell id="4ug6vpeXdx55hFxfICAQ-129" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="330" as="sourcePoint" />
+            <mxPoint x="450" y="300" as="sourcePoint" />
             <mxPoint x="450" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -361,7 +356,7 @@
             <mxPoint x="850" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ug6vpeXdx55hFxfICAQ-133" value="&lt;blockquote&gt;&lt;div align=&quot;justify&quot;&gt;Пояснения к схеме: таблица &quot;article&quot; представляет статью, у которой (по порядку) есть поля заголовка, анонсового описания, детального описания, оценки (предполагается среднее от всех оценок, потому float) и тег. Исходя из текста задания, у каждой статьи быть тематический тег — один для статьи, поэтому используется связь &quot;один ко многим&quot;.&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;Поскольку подкатегорий у одной статьи может быть несколько, как и статей в конкретном подразделе, то это связь &quot;многие ко многим&quot;, для отражения которой используется таблица &quot;articles_to_categories&quot;.&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;Аналогичная ситуация с авторами — для отражения связи используется таблица &quot;articles_to_users&quot;. Поскольку нет уточнений, здесь автор — это, по сути, любой пользователь, написавший статью.&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;Под любой статьёй любой пользователь может оставлять сколько угодно комментариев, поэтому таблица &quot;comment&quot; связана с &quot;article&quot; и &quot;user&quot; связью &quot;один ко многим&quot; и первичным ключом в ней выступает отдельный идентификатор.&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;А вот оценку каждый пользователь каждой отдельно взятой статье может поставить только один раз, поэтому в таблице &quot;scores&quot; первичные и внешние ключи совпадают.&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;Для поддержки дополнительных атрибутов используется таблица &quot;article_additional_fields&quot;, где описаны название атрибута, его тип и значение — всё это представлено набором символов, чтобы при необходимости можно было туда положить что угодно, а логика обработки менялась бы в зависимости от указанного типа атрибута.&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;Запрос для получения всех оценок и комментариев к публикациям заданного автора:&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;select a.id, a.header, &lt;span style=&quot;background-color: initial;&quot;&gt;user_comments.name, &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user_comments&lt;/span&gt;.text, &lt;span style=&quot;background-color: initial;&quot;&gt;user_scores.name, &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user_scores&lt;/span&gt;.score&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;from user u&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;join&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;articles_to_users atu on atu.user_id = user.id&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;join article a on a.id = atu.article_id&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;left join&lt;/span&gt;&lt;/div&gt;&lt;blockquote&gt;&lt;div align=&quot;justify&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(select comm.text, comm.article_id, user.id, user.name&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;from comment comm&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;join user on user.id = comm.user_id) as user_comments&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div align=&quot;justify&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;on user_comments.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;article_id = article.id&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;left join&lt;/span&gt;&lt;/div&gt;&lt;blockquote&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(select score.text, score.article_id,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; user.id, user.name&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;from score&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;join user on user.id = &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;score&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.user_id) as user_scores&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;on &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user_scores&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;article_id = article.id&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;where &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user.name = &#39;smth&#39;&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;" parent="1" vertex="1">
+        <mxCell id="4ug6vpeXdx55hFxfICAQ-133" value="&lt;blockquote&gt;&lt;div align=&quot;justify&quot;&gt;Пояснения к схеме: таблица &quot;article&quot; представляет статью, у которой (по порядку) есть поля заголовка, анонсового описания, детального описания и тега. Исходя из текста задания, у каждой статьи быть тематический тег — один для статьи, поэтому используется связь &quot;один ко многим&quot;.&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;Поскольку подкатегорий у одной статьи может быть несколько, как и статей в конкретном подразделе, то это связь &quot;многие ко многим&quot;, для отражения которой используется таблица &quot;articles_to_categories&quot;.&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;Аналогичная ситуация с авторами — для отражения связи используется таблица &quot;articles_to_users&quot;. Поскольку нет уточнений, здесь автор — это, по сути, любой пользователь, написавший статью.&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;Под любой статьёй любой пользователь может оставлять сколько угодно комментариев, поэтому таблица &quot;comment&quot; связана с &quot;article&quot; и &quot;user&quot; связью &quot;один ко многим&quot; и первичным ключом в ней выступает отдельный идентификатор.&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;А вот оценку каждый пользователь каждой отдельно взятой статье может поставить только один раз, поэтому в таблице &quot;score&quot; первичные и внешние ключи совпадают.&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;Для поддержки дополнительных атрибутов используется таблица &quot;article_additional_fields&quot;, где описаны название атрибута, его тип и значение — всё это представлено набором символов, чтобы при необходимости можно было туда положить что угодно, а логика обработки менялась бы в зависимости от указанного типа атрибута.&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;Запрос для получения всех оценок и комментариев к публикациям заданного автора:&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;select a.id, a.header, &lt;span style=&quot;background-color: initial;&quot;&gt;user_comments.name, &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user_comments&lt;/span&gt;.text, &lt;span style=&quot;background-color: initial;&quot;&gt;user_scores.name, &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user_scores&lt;/span&gt;.score&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;from user u&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;join&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;articles_to_users atu on atu.user_id = user.id&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;join article a on a.id = atu.article_id&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;left join&lt;/span&gt;&lt;/div&gt;&lt;blockquote&gt;&lt;div align=&quot;justify&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(select comm.text, comm.article_id, user.id, user.name&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;from comment comm&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;join user on user.id = comm.user_id) as user_comments&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div align=&quot;justify&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;on user_comments.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;article_id = article.id&lt;/span&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;left join&lt;/span&gt;&lt;/div&gt;&lt;blockquote&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(select score.text, score.article_id,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; user.id, user.name&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;from score&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;join user on user.id = &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;score&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.user_id) as user_scores&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;on &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user_scores&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;article_id = article.id&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;where &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user.name = &#39;smth&#39;&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;" parent="1" vertex="1">
           <mxGeometry x="-220" y="280" width="530" height="800" as="geometry" />
         </mxCell>
         <mxCell id="4ug6vpeXdx55hFxfICAQ-144" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=-0.001;exitY=0.249;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4ug6vpeXdx55hFxfICAQ-109" target="4ug6vpeXdx55hFxfICAQ-49" edge="1">
@@ -377,10 +372,10 @@
         <mxCell id="4ug6vpeXdx55hFxfICAQ-145" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="C-vyLk0tnHw3VtMMgP7b-14" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="240" y="400" as="sourcePoint" />
-            <mxPoint x="420" y="315" as="targetPoint" />
+            <mxPoint x="420" y="285" as="targetPoint" />
             <Array as="points">
               <mxPoint x="350" y="405" />
-              <mxPoint x="350" y="315" />
+              <mxPoint x="350" y="285" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -416,7 +411,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ug6vpeXdx55hFxfICAQ-175" value="scores" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="4ug6vpeXdx55hFxfICAQ-175" value="score" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="810" y="530" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4ug6vpeXdx55hFxfICAQ-176" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" parent="4ug6vpeXdx55hFxfICAQ-175" vertex="1">
